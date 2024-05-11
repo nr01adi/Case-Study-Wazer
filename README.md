@@ -1,1 +1,1 @@
-# Case-Study-Wazer
+# Case-Study
