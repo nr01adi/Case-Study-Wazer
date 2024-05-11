@@ -113,9 +113,8 @@ The alerts observed are listed on the table of contents and we will also identif
 - 
 
 Reference:
-- https://cwe.mitre.org/data/definitions/200.html
-- https://cwe.mitre.org/top25/archive/2022/2022_cwe_top25.html
-- https://www.zaproxy.org/docs/alerts/10027/
-
-    ## Weekly Progress Report
-    [Weekly Progress Report - Hamsa.pdf](https://github.com/faizhaffizudin/Case-Study-Hamsa/files/11428141/Weekly.Progress.Report.-.Hamsa.pdf)
+- https://
+- https://
+- https://
+  
+## Weekly Progress Report
