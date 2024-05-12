@@ -46,12 +46,12 @@ The alerts observed are listed on the table of contents and we will also identif
 ![image](https://github.com/nr01adi/Case-Study-Wazer/assets/90669152/aab19e6f-7195-402b-9805-ab515f873b5d)
 
 ### <a name="serv"/>a. Server OS and Server-Side Scripting used (Windows or Linux, PHP or ASP.net or JavaScript, etc)
-#### Identify: There is no alert found on OWASP ZAP and no risk level and CWE ID can be identified.
-- 
-#### Evaluate: Based on the OWASP ZAP scan results for padu.gov.my, no alert for Hash Disclosure vulnerabilities was found. Since there is no alert, it suggests that OWASP ZAP did not detect any potential issues related to hash disclosure on the website.
-- 
-#### Prevent: Nothing to prevent
-- 
+#### Identify: 
+- There is no alert found on OWASP ZAP and no risk level and CWE ID can be identified.
+#### Evaluate: 
+- Based on the OWASP ZAP scan results for padu.gov.my, no alert for Server OS and Server-Side Scripting used vulnerabilities was found. Since there is no alert, it suggests that OWASP ZAP did not detect any potential issues related to hash disclosure on the website. However it is using CloudWaf server
+#### Prevent: 
+- Nothing to prevent
 ### <a name="hash"/> b. Hash Disclosure
 #### Identify:
 - There is no alert found on OWASP ZAP and no risk level and CWE ID can be identified.
