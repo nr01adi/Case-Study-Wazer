@@ -48,14 +48,14 @@ The alerts observed are listed on the table of contents and we will also identif
 - 
 ### <a name="hash"/> b. Hash Disclosure
 #### Identify:
-- 
+- There is no alert found on OWASP ZAP and no risk level and CWE ID can be identified.
 #### Evaluate:
-- 
+- Based on the OWASP ZAP scan results for padu.gov.my, no alert for Hash Disclosure vulnerabilities was found. Since there is no alert, it suggests that OWASP ZAP did not detect any potential issues related to hash disclosure on the website.
 #### Prevent:
 - 
 ### <a name="csrf"/>c. CSRF
 #### Identify:
-- 
+- There is no alert found on OWASP ZAP and no risk level and CWE ID can be identified.
 #### Evaluate:
 -
 #### Prevent:
@@ -88,7 +88,7 @@ The alerts observed are listed on the table of contents and we will also identif
 
 ### <a name="jsl"/>f. JS Library
 #### Identify:
-- 
+- There is no alert found on OWASP ZAP and no risk level and CWE ID can be identified.
 #### Evaluate:
 -
 #### Prevent:
@@ -96,21 +96,21 @@ The alerts observed are listed on the table of contents and we will also identif
 
 ### <a name="https"/>g. HTTPS Implementation (TLS/SSL)
 #### Identify:
-- 
+- There is no alert found on OWASP ZAP and no risk level and CWE ID can be identified.
 #### Evaluate:
-- 
+- Based on the OWASP ZAP scan results for padu.gov.my, no alert for https implementation vulnerabilities was found. Since there is no alert, it suggests that OWASP ZAP did not detect any potential issues related to https implementation on the website.
 #### Prevent:
 - 
 ### <a name="coo"/>h. Cookie Poisoning
 #### Identify:
-- 
+- There is no alert found on OWASP ZAP and no risk level and CWE ID can be identified.
 #### Evaluate:
 - 
 #### Prevent:
 - 
 ### <a name="pot"/>i. Potential XSS
 #### Identify:
-  - 
+  - There is no alert found on OWASP ZAP and no risk level and CWE ID can be identified.
 #### Evaluate:
   - 
 #### Prevent:
