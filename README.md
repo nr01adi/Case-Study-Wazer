@@ -69,6 +69,7 @@ The alerts observed are listed on the table of contents and we will also identif
    - Confidence: medium
    - CWE ID: 614
    - WASC ID: 13
+   - Evidence: Set-Cookie: HWWAFSESID  
    - The page involved is at URL: https://padu.gov.my/
 #### Evaluate:
 The Secure attribute for sensitive cookies in HTTPS sessions is not set, which could cause the user agent to send those cookies in plaintext over an HTTP session.
@@ -80,6 +81,7 @@ The Secure attribute for sensitive cookies in HTTPS sessions is not set, which c
    - Confidence: medium
    - CWE ID: 1004
    - WASC ID: 13
+   - Evidence: Set-Cookie: HWWAFSESID  
    - The page involved is at URL: https://padu.gov.my/
 #### Evaluate:
 The HttpOnly flag directs compatible browsers to prevent client-side script from accessing cookies. Including the HttpOnly flag in the Set-Cookie HTTP response header helps mitigate the risk associated with Cross-Site Scripting (XSS) where an attacker's script code might attempt to read the contents of a cookie and exfiltrate information obtained. When set, browsers that support the flag will not reveal the contents of the cookie to a third party via client-side script executed via XSS.
@@ -91,6 +93,7 @@ The HttpOnly flag directs compatible browsers to prevent client-side script from
    - Confidence: medium
    - CWE ID: 1275
    - WASC ID: 13
+   - Evidence: Set-Cookie: HWWAFSESID 
    - The page involved is at URL: https://padu.gov.my/
 #### Evaluate:
 The SameSite attribute controls how cookies are sent for cross-domain requests. This attribute may have three values: 'Lax', 'Strict', or 'None'. If the 'None' value is used, a website may create a cross-domain POST HTTP request to another website, and the browser automatically adds cookies to this request. This may lead to Cross-Site-Request-Forgery (CSRF) attacks if there are no additional protections in place (such as Anti-CSRF tokens).
