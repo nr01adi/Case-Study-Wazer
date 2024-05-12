@@ -59,7 +59,7 @@ The alerts observed are listed on the table of contents and we will also identif
 #### Identify:
 - There is no alert found on OWASP ZAP and no risk level and CWE ID can be identified.
 #### Evaluate:
--
+- The absence of a CSRF alert in the OWASP ZAP scan results for padu.gov.my suggests that no potential vulnerabilities related to Cross-Site Request Forgery were detected during the assessment as there is no authentication at the momment.
 #### Prevent:
 - 
 ### <a name="sec"/> d. Secured Cookies
