@@ -125,7 +125,7 @@ The alerts observed are listed on the table of contents and we will also identif
 #### Identify:
 - There is no alert found on OWASP ZAP and no risk level and CWE ID can be identified.
 #### Evaluate:
--
+- Based on the OWASP ZAP scan results for padu.gov.my, no alert for JS Library vulnerabilities was found. Since there is no alert, it suggests that OWASP ZAP did not detect any potential issues related to JS Library implementation on the website.
 #### Prevent:
 - 
 
@@ -140,14 +140,14 @@ The alerts observed are listed on the table of contents and we will also identif
 #### Identify:
 - There is no alert found on OWASP ZAP and no risk level and CWE ID can be identified.
 #### Evaluate:
-- 
+- Based on the OWASP ZAP scan results for padu.gov.my, no alert for Cookie Poisoning vulnerabilities was found. Since there is no alert, it suggests that OWASP ZAP did not detect any potential issues related to Cookie Poisoning on the website.
 #### Prevent:
 - 
 ### <a name="pot"/>i. Potential XSS
 #### Identify:
   - There is no alert found on OWASP ZAP and no risk level and CWE ID can be identified.
 #### Evaluate:
-  - 
+  - Based on the OWASP ZAP scan results for padu.gov.my, no alert for Potential XSS vulnerabilities was found. Since there is no alert, it suggests that OWASP ZAP did not detect any potential issues related to Potential XSS on the website.
 #### Prevent:
   - 
 ### <a name="inf"/>j. Information Disclosure
@@ -179,3 +179,4 @@ This particular information disclosure is that response appears to contain suspi
 - https://cwe.mitre.org/data/definitions/200.html
   
 ## Weekly Progress Report
+- https://drive.google.com/drive/folders/1l-oRw4g35iqj0GJyuy1DDVjStHPXIfxo?usp=drive_link
