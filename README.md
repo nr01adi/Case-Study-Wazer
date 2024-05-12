@@ -16,8 +16,8 @@ Wazer
 
 2. Muhammad Haikal Bin Azhari (2014711)
     - Identify, evaluate and prevent of:
-      - 
-      - 
+      - Secured Cookies
+      - Information Disclosure
       - 
 
 ## Table of Contents
@@ -39,6 +39,8 @@ Our assigned web application is the Pangkalan Data Utama (PADU) website at https
 
 The alerts observed are listed on the table of contents and we will also identify the level of risk for each alert and additional information on the classification of threats (CWE or CVE).
 ## <a name="obsv"/>Observation Results
+![image](https://github.com/nr01adi/Case-Study-Wazer/assets/90669152/aab19e6f-7195-402b-9805-ab515f873b5d)
+
 ### <a name="serv"/>a. Server OS and Server-Side Scripting used (Windows or Linux, PHP or ASP.net or JavaScript, etc)
 #### Identify:
 - 
@@ -62,14 +64,44 @@ The alerts observed are listed on the table of contents and we will also identif
 - 
 ### <a name="sec"/> d. Secured Cookies
 #### Identify:
-- Cookie Without Secure Flag
-- Risk level: low
-- Confidence: medium
-- CWE ID 614 
+1. Cookie Without Secure Flag
+   - Risk level: low
+   - Confidence: medium
+   - CWE ID: 614
+   - WASC ID: 13
+   - The page involved is at URL: https://padu.gov.my/
 #### Evaluate:
--
+The Secure attribute for sensitive cookies in HTTPS sessions is not set, which could cause the user agent to send those cookies in plaintext over an HTTP session.
 #### Prevent:
-- 
+-   Whenever a cookie contains sensitive information or is a session token, then it should always be passed using an encrypted channel. Ensure that the secure flag is set for cookies containing such sensitive information.
+
+2. Cookie No HttpOnly Flag
+   - Risk level: low
+   - Confidence: medium
+   - CWE ID: 1004
+   - WASC ID: 13
+   - The page involved is at URL: https://padu.gov.my/
+#### Evaluate:
+The HttpOnly flag directs compatible browsers to prevent client-side script from accessing cookies. Including the HttpOnly flag in the Set-Cookie HTTP response header helps mitigate the risk associated with Cross-Site Scripting (XSS) where an attacker's script code might attempt to read the contents of a cookie and exfiltrate information obtained. When set, browsers that support the flag will not reveal the contents of the cookie to a third party via client-side script executed via XSS.
+#### Prevent:
+- Ensure that the HttpOnly flag is set for all cookies.
+
+3. Cookie without SameSite Attribute
+   - Risk level: low
+   - Confidence: medium
+   - CWE ID: 1275
+   - WASC ID: 13
+   - The page involved is at URL: https://padu.gov.my/
+#### Evaluate:
+The SameSite attribute controls how cookies are sent for cross-domain requests. This attribute may have three values: 'Lax', 'Strict', or 'None'. If the 'None' value is used, a website may create a cross-domain POST HTTP request to another website, and the browser automatically adds cookies to this request. This may lead to Cross-Site-Request-Forgery (CSRF) attacks if there are no additional protections in place (such as Anti-CSRF tokens).
+#### Prevent:
+- Ensure that the SameSite attribute is set to either 'lax' or ideally 'strict' for all cookies.
+
+#### References:
+- https://cwe.mitre.org/data/definitions/614.html
+- https://cwe.mitre.org/data/definitions/1004.html
+- https://cwe.mitre.org/data/definitions/1275.html
+
 ### <a name="csp"/>e. CSP
 #### Identify:
 - Risk level: medium
@@ -118,17 +150,29 @@ The alerts observed are listed on the table of contents and we will also identif
 ### <a name="inf"/>j. Information Disclosure
 #### Identify:
 - Risk level: informational
+- Confidence: low
 - CWE ID: 200
-- The page involved is at URL: https://www.
-- Evidence:
+- WASC ID: 13
+- The page involved is at URL: https://padu.gov.my
+
 #### Evaluate:
--
+There are many different kinds of mistakes that introduce information exposures. The severity of the error can range widely, depending on the context in which the product operates, the type of sensitive information that is revealed, and the benefits it may provide to an attacker. Some kinds of sensitive information include:
+   - private, personal information, such as personal messages, financial data, health records, geographic location, or contact details
+   - system status and environment, such as the operating system and installed packages
+   - business secrets and intellectual property
+   - network status and configuration
+   - the product's own code or internal state
+
+Information might be sensitive to different parties, each of which may have their own expectations for whether the information should be protected. These parties include:
+   - the product's own users
+   - people or organizations whose information is created or used by the product, even if they are not direct product users
+   - the product's administrators, including the admins of the system(s) and/or networks on which the product operates
+
+This particular information disclosure is that response appears to contain suspicious comments which may help an attacker. Note: Matches made within script blocks or files are against the entire content not only comments.
 #### Prevent:
-- 
+- Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.
 
 Reference:
-- https://
-- https://
-- https://
+- https://cwe.mitre.org/data/definitions/200.html
   
 ## Weekly Progress Report
