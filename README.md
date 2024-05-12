@@ -10,9 +10,11 @@ Wazer
 ## Assigned Tasks
 1. Nik Raeidi Bin Nik Salimi (2013837)
     - Identify, evaluate and prevent of:
-      - 
-      - 
-      - 
+      - Hash Disclosure
+      - CSRF
+      - JS Library
+      - HTTPS implementation (TLS/SSL)
+      - CSP
 
 2. Muhammad Haikal Bin Azhari (2014711)
     - Identify, evaluate and prevent of:
