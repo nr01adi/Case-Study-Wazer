@@ -62,7 +62,10 @@ The alerts observed are listed on the table of contents and we will also identif
 - 
 ### <a name="sec"/> d. Secured Cookies
 #### Identify:
-- 
+- Cookie Without Secure Flag
+- Risk level: low
+- Confidence: medium
+- CWE ID 614 
 #### Evaluate:
 -
 #### Prevent:
@@ -109,7 +112,10 @@ The alerts observed are listed on the table of contents and we will also identif
   - 
 ### <a name="inf"/>j. Information Disclosure
 #### Identify:
--  
+- Risk level: informational
+- CWE ID: 200
+- The page involved is at URL: https://www.
+- Evidence:
 #### Evaluate:
 -
 #### Prevent:
