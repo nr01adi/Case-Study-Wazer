@@ -69,7 +69,10 @@ The alerts observed are listed on the table of contents and we will also identif
 - 
 ### <a name="csp"/>e. CSP
 #### Identify:
-- 
+- Risk level: medium
+- Confidence: high
+- CWE ID: 693
+- The page involved is at URL: https://www.padu.gov.my/sitemap.xml
 #### Evaluate:
 -
 #### Prevent:
