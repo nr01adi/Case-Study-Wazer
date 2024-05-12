@@ -65,7 +65,7 @@ The alerts observed are listed on the table of contents and we will also identif
 #### Evaluate:
 - The absence of a CSRF alert in the OWASP ZAP scan results for padu.gov.my suggests that no potential vulnerabilities related to Cross-Site Request Forgery were detected during the assessment as there is no authentication at the momment.
 #### Prevent:
-- 
+- No prevention at the momment as no alert appears in the OWASP ZAP scan results.
 ### <a name="sec"/> d. Secured Cookies
 #### Identify:
 1. Cookie Without Secure Flag
@@ -131,7 +131,7 @@ The alerts observed are listed on the table of contents and we will also identif
 #### Evaluate:
 - Based on the OWASP ZAP scan results for padu.gov.my, no alert for JS Library vulnerabilities was found. Since there is no alert, it suggests that OWASP ZAP did not detect any potential issues related to JS Library implementation on the website.
 #### Prevent:
-- 
+- No prevention at the momment as no alert appears in the OWASP ZAP scan results.
 
 ### <a name="https"/>g. HTTPS Implementation (TLS/SSL)
 #### Identify:
@@ -139,14 +139,14 @@ The alerts observed are listed on the table of contents and we will also identif
 #### Evaluate:
 - Based on the OWASP ZAP scan results for padu.gov.my, no alert for https implementation vulnerabilities was found. Since there is no alert, it suggests that OWASP ZAP did not detect any potential issues related to https implementation on the website.
 #### Prevent:
-- 
+- No prevention at the momment as no alert appears in the OWASP ZAP scan results.
 ### <a name="coo"/>h. Cookie Poisoning
 #### Identify:
 - There is no alert found on OWASP ZAP and no risk level and CWE ID can be identified.
 #### Evaluate:
 - Based on the OWASP ZAP scan results for padu.gov.my, no alert for Cookie Poisoning vulnerabilities was found. Since there is no alert, it suggests that OWASP ZAP did not detect any potential issues related to Cookie Poisoning on the website.
 #### Prevent:
-- 
+- No prevention at the momment as no alert appears in the OWASP ZAP scan results.
 ### <a name="pot"/>i. Potential XSS
 #### Identify:
   - There is no alert found on OWASP ZAP and no risk level and CWE ID can be identified.
