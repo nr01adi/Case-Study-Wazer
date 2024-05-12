@@ -184,4 +184,3 @@ This particular information disclosure is that response appears to contain suspi
   
 ## Weekly Progress Report
 - https://drive.google.com/drive/folders/1l-oRw4g35iqj0GJyuy1DDVjStHPXIfxo?usp=drive_link
-![wazer](https://github.com/nr01adi/Case-Study-Wazer/assets/90669152/a3f4dfdc-8dd5-4c36-81e6-dcab356a086d)
