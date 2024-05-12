@@ -54,7 +54,7 @@ The alerts observed are listed on the table of contents and we will also identif
 #### Evaluate:
 - Based on the OWASP ZAP scan results for padu.gov.my, no alert for Hash Disclosure vulnerabilities was found. Since there is no alert, it suggests that OWASP ZAP did not detect any potential issues related to hash disclosure on the website.
 #### Prevent:
-- 
+- For this website, since there is no login screen at the momment, the specific concern of hash disclosure may not apply.
 ### <a name="csrf"/>c. CSRF
 #### Identify:
 - There is no alert found on OWASP ZAP and no risk level and CWE ID can be identified.
