@@ -95,6 +95,11 @@ The alerts observed are listed on the table of contents and we will also identif
 - Ensure that the HttpOnly flag is set for all cookies.
 - Ensure that the SameSite attribute is set to either 'lax' or ideally 'strict' for all cookies.
 
+#### Additional Information
+- ![image](https://github.com/nr01adi/Case-Study-Wazer/assets/90669152/7cf5508d-ebee-4d8a-ab43-126805c8d421)
+- ![image](https://github.com/nr01adi/Case-Study-Wazer/assets/90669152/080a1e02-66c7-41ed-a212-0699c576df36)
+- ![image](https://github.com/nr01adi/Case-Study-Wazer/assets/90669152/abb928da-5721-467a-9ab4-b36c98becbe6)
+
 #### References:
 - https://cwe.mitre.org/data/definitions/614.html
 - https://cwe.mitre.org/data/definitions/1004.html
@@ -170,7 +175,7 @@ This particular information disclosure is that response appears to contain suspi
 #### Prevent:
 - Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.
 
-Reference:
+#### Reference:
 - https://cwe.mitre.org/data/definitions/200.html
   
 ## Weekly Progress Report
