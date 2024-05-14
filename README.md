@@ -69,6 +69,7 @@ The alerts observed are listed on the table of contents and we will also identif
 ### <a name="sec"/> d. Secured Cookies (Haikal)
 #### Identify:
 1. Cookie Without Secure Flag
+   - ![image](https://github.com/nr01adi/Case-Study-Wazer/assets/90669152/337c6d01-0806-4644-800f-48b499342c24)
    - Risk level: low
    - Confidence: medium
    - CWE ID: 614
@@ -76,6 +77,7 @@ The alerts observed are listed on the table of contents and we will also identif
    - Evidence: Set-Cookie: HWWAFSESID  
    - The page involved is at URL: https://padu.gov.my/
 2. Cookie No HttpOnly Flag
+   - ![image](https://github.com/nr01adi/Case-Study-Wazer/assets/90669152/0b643194-5581-4d32-a411-83fed3a6338d)
    - Risk level: low
    - Confidence: medium
    - CWE ID: 1004
@@ -83,6 +85,7 @@ The alerts observed are listed on the table of contents and we will also identif
    - Evidence: Set-Cookie: HWWAFSESID  
    - The page involved is at URL: https://padu.gov.my/
 3. Cookie without SameSite Attribute
+   - ![image](https://github.com/nr01adi/Case-Study-Wazer/assets/90669152/49e50f38-a039-4f76-a3f5-4c866e82bc0f)
    - Risk level: low
    - Confidence: medium
    - CWE ID: 1275
@@ -111,6 +114,7 @@ The alerts observed are listed on the table of contents and we will also identif
 
 ### <a name="csp"/>e. CSP (Raeidi)
 #### Identify:
+- ![image](https://github.com/nr01adi/Case-Study-Wazer/assets/90669152/29ae61de-e5e8-4d72-a1cb-2d714a938d72)
 - Risk level: medium
 - Confidence: high
 - CWE ID: 693
@@ -159,6 +163,7 @@ The alerts observed are listed on the table of contents and we will also identif
   - No prevention at the momment as no alert appears in the OWASP ZAP scan results.
 ### <a name="inf"/>j. Information Disclosure (Haikal)
 #### Identify:
+- ![image](https://github.com/nr01adi/Case-Study-Wazer/assets/90669152/5fd303b1-a26e-4ec0-b70f-9a545167c6f1)
 - Risk level: informational
 - Confidence: low
 - CWE ID: 200
