@@ -125,6 +125,9 @@ The alerts observed are listed on the table of contents and we will also identif
 - Regularly review and update CSP directives: Keep the CSP directives up-to-date by periodically reviewing and refining them based on changes to the website's structure, content, and functionality. This includes adding or removing allowed sources as needed and adjusting the CSP directives to accommodate new features or third-party integrations.
 - Test CSP configurations: Regularly test the effectiveness of the CSP configurations using security tools like OWASP ZAP, as done in the initial vulnerability assessment. Automated and manual testing can help identify misconfigurations or weaknesses in the CSP policy that may expose the website to vulnerabilities.
 
+#### References:
+- https://cwe.mitre.org/data/definitions/693.html
+
 ### <a name="jsl"/>f. JS Library (Raeidi)
 #### Identify:
 - There is no alert found on OWASP ZAP and no risk level and CWE ID can be identified.
