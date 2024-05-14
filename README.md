@@ -45,28 +45,28 @@ The alerts observed are listed on the table of contents and we will also identif
 ## <a name="obsv"/>Observation Results
 ![image](https://github.com/nr01adi/Case-Study-Wazer/assets/90669152/aab19e6f-7195-402b-9805-ab515f873b5d)
 
-### <a name="serv"/>a. Server OS and Server-Side Scripting used (Windows or Linux, PHP or ASP.net or JavaScript, etc)
+### <a name="serv"/>a. Server OS and Server-Side Scripting used (Windows or Linux, PHP or ASP.net or JavaScript, etc) (Haikal)
 #### Identify: 
 - There is no alert found on OWASP ZAP and no risk level and CWE ID can be identified.
 #### Evaluate: 
 - Based on the OWASP ZAP scan results for padu.gov.my, no alert for Server OS and Server-Side Scripting used vulnerabilities was found. Since there is no alert, it suggests that OWASP ZAP did not detect any potential issues related to hash disclosure on the website. However it is using CloudWaf server
 #### Prevent: 
 - Nothing to prevent
-### <a name="hash"/> b. Hash Disclosure
+### <a name="hash"/> b. Hash Disclosure (Raeidi)
 #### Identify:
 - There is no alert found on OWASP ZAP and no risk level and CWE ID can be identified.
 #### Evaluate:
 - Based on the OWASP ZAP scan results for padu.gov.my, no alert for Hash Disclosure vulnerabilities was found. Since there is no alert, it suggests that OWASP ZAP did not detect any potential issues related to hash disclosure on the website.
 #### Prevent:
 - For this website, since there is no login screen at the momment, the specific concern of hash disclosure may not apply.
-### <a name="csrf"/>c. CSRF
+### <a name="csrf"/>c. CSRF (Raeidi)
 #### Identify:
 - There is no alert found on OWASP ZAP and no risk level and CWE ID can be identified.
 #### Evaluate:
 - The absence of a CSRF alert in the OWASP ZAP scan results for padu.gov.my suggests that no potential vulnerabilities related to Cross-Site Request Forgery were detected during the assessment as there is no authentication at the momment.
 #### Prevent:
 - No prevention at the momment as no alert appears in the OWASP ZAP scan results.
-### <a name="sec"/> d. Secured Cookies
+### <a name="sec"/> d. Secured Cookies (Haikal)
 #### Identify:
 1. Cookie Without Secure Flag
    - Risk level: low
@@ -109,7 +109,7 @@ The alerts observed are listed on the table of contents and we will also identif
 - https://cwe.mitre.org/data/definitions/1004.html
 - https://cwe.mitre.org/data/definitions/1275.html
 
-### <a name="csp"/>e. CSP
+### <a name="csp"/>e. CSP (Raeidi)
 #### Identify:
 - Risk level: medium
 - Confidence: high
@@ -125,7 +125,7 @@ The alerts observed are listed on the table of contents and we will also identif
 - Regularly review and update CSP directives: Keep the CSP directives up-to-date by periodically reviewing and refining them based on changes to the website's structure, content, and functionality. This includes adding or removing allowed sources as needed and adjusting the CSP directives to accommodate new features or third-party integrations.
 - Test CSP configurations: Regularly test the effectiveness of the CSP configurations using security tools like OWASP ZAP, as done in the initial vulnerability assessment. Automated and manual testing can help identify misconfigurations or weaknesses in the CSP policy that may expose the website to vulnerabilities.
 
-### <a name="jsl"/>f. JS Library
+### <a name="jsl"/>f. JS Library (Raeidi)
 #### Identify:
 - There is no alert found on OWASP ZAP and no risk level and CWE ID can be identified.
 #### Evaluate:
@@ -133,28 +133,28 @@ The alerts observed are listed on the table of contents and we will also identif
 #### Prevent:
 - No prevention at the momment as no alert appears in the OWASP ZAP scan results.
 
-### <a name="https"/>g. HTTPS Implementation (TLS/SSL)
+### <a name="https"/>g. HTTPS Implementation (TLS/SSL) (Raeidi)
 #### Identify:
 - There is no alert found on OWASP ZAP and no risk level and CWE ID can be identified.
 #### Evaluate:
 - Based on the OWASP ZAP scan results for padu.gov.my, no alert for https implementation vulnerabilities was found. Since there is no alert, it suggests that OWASP ZAP did not detect any potential issues related to https implementation on the website.
 #### Prevent:
 - No prevention at the momment as no alert appears in the OWASP ZAP scan results.
-### <a name="coo"/>h. Cookie Poisoning
+### <a name="coo"/>h. Cookie Poisoning (Haikal)
 #### Identify:
 - There is no alert found on OWASP ZAP and no risk level and CWE ID can be identified.
 #### Evaluate:
 - Based on the OWASP ZAP scan results for padu.gov.my, no alert for Cookie Poisoning vulnerabilities was found. Since there is no alert, it suggests that OWASP ZAP did not detect any potential issues related to Cookie Poisoning on the website.
 #### Prevent:
 - No prevention at the momment as no alert appears in the OWASP ZAP scan results.
-### <a name="pot"/>i. Potential XSS
+### <a name="pot"/>i. Potential XSS (Haikal)
 #### Identify:
   - There is no alert found on OWASP ZAP and no risk level and CWE ID can be identified.
 #### Evaluate:
   - Based on the OWASP ZAP scan results for padu.gov.my, no alert for Potential XSS vulnerabilities was found. Since there is no alert, it suggests that OWASP ZAP did not detect any potential issues related to Potential XSS on the website.
 #### Prevent:
   - No prevention at the momment as no alert appears in the OWASP ZAP scan results.
-### <a name="inf"/>j. Information Disclosure
+### <a name="inf"/>j. Information Disclosure (Haikal)
 #### Identify:
 - Risk level: informational
 - Confidence: low
